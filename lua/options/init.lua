@@ -1,6 +1,5 @@
 vim.cmd('filetype plugin indent on')
 vim.o.hidden = true
-vim.o.pumheight = 2
 vim.o.fileencoding = 'utf-8'
 vim.o.splitbelow = true
 vim.o.splitright = true
