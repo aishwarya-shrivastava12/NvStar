@@ -21,11 +21,12 @@ local mappings = {
 	},
 	f = {
 		name = "Telescope",
+		b = { ":lua require(\"core.file\").buffers()<cr>", "Buffers" },
+		e = { ":Telescope emoji<cr>", "Emoji Picker" },
 		f = { ":Telescope find_files<cr>", "Find Files" },
 		g = { ":Telescope oldfiles<cr>", "Recently Opened" },
-		r = { ":Telescope live_grep<cr>", "Find String" },
-		e = { ":Telescope emoji<cr>", "Emoji Picker" },
 		m = { ":Telescope media_files<cr>", "Find Media" },
+		r = { ":Telescope live_grep<cr>", "Find String" },
 	},
 	t = {
 		name = "Terminal",

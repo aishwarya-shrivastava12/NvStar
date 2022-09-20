@@ -8,6 +8,7 @@ for _, source in ipairs({
 	"core.plugins",
 	"core.option",
 	"core.keymap",
+    "core.file",
 	"core.user",
 
 	-- PLUGS
