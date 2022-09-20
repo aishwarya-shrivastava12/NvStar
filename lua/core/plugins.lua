@@ -37,7 +37,9 @@ return require("packer").startup(function(use)
 	})
 	use({
 		"windwp/nvim-autopairs",
-		config = "require('config/autopair')",
+		config = function()
+			require("nvim-autopairs").setup{}
+		end,
 		after = "nvim-cmp",
 	})
 	use({
