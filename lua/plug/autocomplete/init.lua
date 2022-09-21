@@ -1,3 +1,3 @@
-require("config/autocomplete/autocomplete")
-require("config/autocomplete/diagnostics")
-require("config/autocomplete/language_servers")
+require("core/autocomplete/autocomplete")
+require("core/autocomplete/diagnostics")
+require("core/autocomplete/language_servers")
