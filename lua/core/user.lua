@@ -1,1 +1,1 @@
-vim.opt.showtabline = 0
+vim.o.showtabline = 0
